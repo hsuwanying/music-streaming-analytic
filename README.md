@@ -25,7 +25,7 @@ Music streaming services allow people to access various types of music and milli
 The goal of this project is to improve the recommader system that can accuratly predict and suggest music the user like so as to reducing skipping rate. To achieve that, a user perferece analysis is conducted to better understand user related information, including, user demography, user actvites, gerner perference and listening patterns.   
 
 ## Process
- - Business background Research
+ - Business Background Research
  - Data Exploration
  - Feature Engnerring and Data Analysis
 
