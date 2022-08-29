@@ -7,13 +7,13 @@ This project is submitted as part of assignemnt the Recommader System module for
 [Carol Hsu](https://github.com/hsuwanying)
 
 # Table of Content
- - [Business Problem]()
- - [Solution]()
- - [Process]()
- - [Data Source]()
- - [Data Analysis]()
- - [Result & Recommadation]()
- - [Project Reflection]()
+ - [Business Problem](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#business-problem)
+ - [Solution](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#solution)
+ - [Process](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#process)
+ - [Data Source](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#data-source)
+ - [Data Analysis](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#data-analysis)
+ - [Result & Recommadation](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#result--recommadation)
+ - [Project Reflection]([Recommadation](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#project-reflection))
 
 # Business Problem
 Music streaming services allow people to access various types of music and millions of tracks with their smart devices and to customize playlists based on their preferences. These advanced features have made listening to music much easier than ever (Adiyansjan, Gunawan, & Suhartono, 2019). Neverthless, having an abundance of choices could delay users at making decisions and detering their motivation to stay with the services (Maasø & Hagen, 2020). Hence, businesses who wish to increase competitive advantages and enhance user stickiness towards digital products, it is essential to develop a recommender system, a mechanism that can automatically suggest media meeting user’s expectation (Hansen, et al., 2021). 
