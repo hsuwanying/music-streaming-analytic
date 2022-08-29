@@ -1,5 +1,5 @@
-# Improving Music Streaming Recommader System with User Perference Analysis 
-
+# Music Streaming Analytics
+Improving user listenting experience with music streaming data analysis 
 
 This project is submitted as part of assignemnt the Recommader System module for MSc in Applied Information and Data Science at School of Business, Lucerne University of Applied Science and Arts
 
