@@ -12,7 +12,7 @@ This project is submitted as part of assignemnt the Recommader System module for
  - [Process](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#process)
  - [Data Source](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#data-source)
  - [Data Analysis](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#data-analysis)
- - [Result & Recommadation](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#result--recommadation)
+ - [Conclusion](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#conclusion)
  - [Project Reflection](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#project-reflection)
 
 # Business Problem
@@ -83,7 +83,7 @@ Attributes ‘user_id’, ‘user_age’, ‘media_id’ (songs) were aggregated
 4. Users aged 30 listened to nearly two times more songs than users aged above 20.
 5. Majority of users listening in the flow skipped more songs than users who were not in a flow, except users aged 19 and 30 
 
-# Result & Recommadation
+# Conclusion
 To sum up, we found that **time** is one of the most critical elements that can affect the user when it comes to listening type of songs. Music preference also changed differently between user age groups, platform, and listen environments. To improve the new feature FLOW and reduce user bouncing rate, a context-based recommendation system is suggested, nevertheless, personalized features need to be considered when building such a model.
 
 # Project Reflection
