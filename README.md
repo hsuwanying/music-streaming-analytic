@@ -1,5 +1,5 @@
 ![viktor-forgacs-B88PgQXS4qg-unsplash](https://user-images.githubusercontent.com/72688726/187309445-3085b23f-55d6-4212-bb72-5a5c6a506ad5.jpg)
-Photo by (Viktor Forgacs)[https://unsplash.com/@sonance?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText] on (Unsplash)[https://unsplash.com/photos/B88PgQXS4qg]
+Photo by [Viktor Forgac](https://unsplash.com/@sonance?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/B88PgQXS4qg)
 
 # Music Streaming Analytics
 Improving user listenting experience with music streaming data analysis 
