@@ -1,5 +1,4 @@
 # Improving Music Streaming Recommader System with User Perference Analysis 
-The project aims to improve recommendation system feature with the help of analysing user data. The project and data originated from Kaggle, and was submmited as part of assigment for REC course at HSLU 
 
 ## Business Problem
 Music streaming services allow people to access various types of music and millions of tracks with their smart devices and to customize playlists based on their preferences. These advanced features have made listening to music much easier than ever (Adiyansjan, Gunawan, & Suhartono, 2019). Neverthless, having an abundance of choices could delay users at making decisions and detering their motivation to stay with the services (Maasø & Hagen, 2020). Hence, businesses who wish to increase competitive advantages and enhance user stickiness towards digital products, it is essential to develop a recommender system, a mechanism that can automatically suggest media meeting user’s expectation (Hansen, et al., 2021). 
@@ -11,7 +10,9 @@ The goal of this project is to improve the recommader system that can accuratly 
 ## Deliverable
 Business background Research, Data Exploration, Feature Engnerring and Data Analysis
 
-## Data Description
+# Data Source
+The data is originated from a [Kaggle challenge](https://www.kaggle.com/c/dsg17-online-phase).
+## Description
 The target variable of this dataset is is_listened. There are 7'558'834 obersvations with 14 preditors
  - genre_id: identifiant of the genre of the song
  - media_id: identifiant of the song listened by the user
