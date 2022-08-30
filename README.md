@@ -1,3 +1,10 @@
+<style>
+figcaption {
+  color: black;
+  text-align: center;
+}
+</style>
+
 ![viktor-forgacs-B88PgQXS4qg-unsplash](https://user-images.githubusercontent.com/72688726/187309445-3085b23f-55d6-4212-bb72-5a5c6a506ad5.jpg)
 Photo by [Viktor Forgac](https://unsplash.com/@sonance?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/B88PgQXS4qg)
 
@@ -30,10 +37,10 @@ This project is submitted as part of assignemnt the Recommader System module for
 <blockquote cite="https://www.kaggle.com/c/dsg17-online-phase">
 Kaggle Challenge: To predict whether the users of the test dataset listened to the first track Flow proposed them or not. Deezer considers that a track is "listened" if the user has listened to more than 30 seconds of it (is_listened =1). If the user presses the skip button to change the song before 30 seconds, then the track is not considered as being listened (is_listened = 0).
 </blockquote>
-<img width="817" alt="flow" src="https://user-images.githubusercontent.com/72688726/187404204-8281894e-390a-4094-aae8-d29a0015a06c.png">
+
 <figure>
  <img width="817" alt="flow" align = "center" src="https://user-images.githubusercontent.com/72688726/187404204-8281894e-390a-4094-aae8-d29a0015a06c.png">
- <figcaption>Fig.1 - User Listening Time based on Session.</figcaption>
+ <figcaption>Deezer - FLOW</figcaption>
 </figure>
 
 # Solution
@@ -93,7 +100,7 @@ Time is an essential factor which shifts users perderence from time to time.
 24 hours are divded into six sesession, the graph below shows user listening time based on `session`,
 
 <figure>
- <img width="400" alt="session" src="https://user-images.githubusercontent.com/72688726/187429311-17f417cd-42cd-46e6-bf64-eff373b30c3c.png">
+ <img width="400" alt="session" class="center" src="https://user-images.githubusercontent.com/72688726/187429311-17f417cd-42cd-46e6-bf64-eff373b30c3c.png">
  <figcaption>Fig.1 - User Listening Time based on Session.</figcaption>
 </figure>
 
