@@ -93,6 +93,36 @@ To better understand user preferences, behaviors and listening patterns, a serie
 More detail can be seen in [Deezer data analysis result](https://github.com/hsuwanying/music-streaming-analytic/blob/main/deezer_dataanalysis_result.ipynb).
 
 # Data Analysis
+Fistly, we can quickly have a look at the FLOW feature, which is the column `listen_type`. The table below calculates the avarage lenght of songs people listen and percentage of song listening within and without FLOW function. It clearly shows that, users do not use flow function listened nearly two thrid of a song, in contrast, users who use flow function only listened less than 20% of a song which is recommmaded by the system.
+
+<p align = "center">
+<img width="550" alt="ave_lis_perc" src="https://user-images.githubusercontent.com/72688726/187438440-81f05860-8157-4584-af35-dcd757395eb2.png">
+</p>
+<p align = "center">Average media listening percentage with and wihout FLOW function
+</p>
+<br>
+
+
+<p align = "center">
+<img width="550" alt="media_perc" src="https://user-images.githubusercontent.com/72688726/187438204-b337eccb-5ba9-4c85-b684-266f76f08138.png">
+</p>
+<p align = "center">Media listening duration 
+</p>
+
+
+<p align = "center">
+<img width="550" alt="age_lis_perc_flow" src="https://user-images.githubusercontent.com/72688726/187438395-ae28615f-81c7-45d7-a94d-386f9f04e7d9.png">
+</p>
+<p align = "center">Media listening percentage with and wihout FLOW function based on Age group 
+</p>
+
+The result is summarized as below:
+1. The number of songs, the length of songs and song listened percentage increased gradually as the age rises.
+2. Young users were more likely to skip songs than the 30-year-old age group.
+3. Users with a 30 year-old age were more likely to finish songs recommended by the system.
+4. Users aged 30 listened to nearly two times more songs than users aged above 20.
+5. Majority of users listening in the flow skipped more songs than users who were not in a flow, except users aged 19 and 30 
+
 
 ## User behaviour analysis
 Time is an essential factor which shifts users perderence from time to time. 24 hours are divded into six sesession, the graph at the left below shows user listening time based on `session`,we found that users started listening to music in the morning, reached the peak in the afternoon, and then dropped in the evening. The graph at the right side gives more detail about the variety of number of users changes hourly-based. 
@@ -113,33 +143,6 @@ Key findings are summarized as following:
 The `listen_type` indicates a user listen music use FLOW(`listen_type = 1`) or not (`listen_type = 0`)<br>
 Attributes `user_id`, `user_age`, `media_id` (songs) were aggregated for calculating average number of songs listened per user and the percentage of songs listened across each user age group.<br>
 
-<p align = "center">
-<img width="550" alt="media_perc" src="https://user-images.githubusercontent.com/72688726/187438204-b337eccb-5ba9-4c85-b684-266f76f08138.png">
-</p>
-
-<p align = "center">Media listening duration 
-</p>
-
-<p align = "center">
-<img width="550" alt="ave_lis_perc" src="https://user-images.githubusercontent.com/72688726/187438440-81f05860-8157-4584-af35-dcd757395eb2.png">
-</p>
-<br>
-<p align = "center">Average media listening percentage with and wihout FLOW function
-</p>
-
-<p align = "center">
-<img width="550" alt="age_lis_perc_flow" src="https://user-images.githubusercontent.com/72688726/187438395-ae28615f-81c7-45d7-a94d-386f9f04e7d9.png">
-</p>
-<br>
-<p align = "center">Media listening percentage with and wihout FLOW function based on Age group 
-</p>
-
-The result is summarized as below:
-1. The number of songs, the length of songs and song listened percentage increased gradually as the age rises.
-2. Young users were more likely to skip songs than the 30-year-old age group.
-3. Users with a 30 year-old age were more likely to finish songs recommended by the system.
-4. Users aged 30 listened to nearly two times more songs than users aged above 20.
-5. Majority of users listening in the flow skipped more songs than users who were not in a flow, except users aged 19 and 30 
 
 ## Genre Analysis
 When it comes to content analysis, genre is one of the features that can differ from time to time, as well as influenced by the surrounding scenarios of users. We found that there are 6 main genres, genre id 0, 7, 10 ,25, 27 and 14, were very popular among all other attributes, such as hour, session, context, platform, listen type and user_age. In other words, no matter the time, the user age or the context, these 6 genres would be favored by the users. Key findings are listed below and graphical analysis can be seen in [deezer_eda_result](https://github.com/hsuwanying/music-streaming-analytic/blob/main/deezer_eda_result.ipynb) 
