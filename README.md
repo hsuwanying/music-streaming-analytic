@@ -70,7 +70,9 @@ Time is an essential factor which shifts users perderence from time to time. In 
 3. The number of users constantly decreased in the evening and dropped to 200,000 at 23 pm. 
 
 ## Genre Preference analysis
-When it comes to content analysis, genre is one of the features that can differ from time to time, as well as influenced by the surrounding scenarios of users. We found that there are 6 main genres, genre id 0, 7, 10 ,25, 27 and 14, were very popular among all other attributes, such as hour, session, context, platform, listen type and user_age. In other words, no matter the time, the user age or the context, these 6 genres would be favored by the users. Key findings are listed below and graphical analysis can be seen in deezer_eda_result.ipynb - Genre Analysis :
+When it comes to content analysis, genre is one of the features that can differ from time to time, as well as influenced by the surrounding scenarios of users. We found that there are 6 main genres, genre id 0, 7, 10 ,25, 27 and 14, were very popular among all other attributes, such as hour, session, context, platform, listen type and user_age. In other words, no matter the time, the user age or the context, these 6 genres would be favored by the users. Key findings are listed below and graphical analysis can be seen in [deezer_eda_result](https://github.com/hsuwanying/music-streaming-analytic/blob/main/deezer_eda_result.ipynb) 
+
+### Genre Analysis :
 
 1. Genre_id 0 was the most popular genre among the top 10 ranking.
 2. Genre_id 0, 7, 10 ,25, 27, 14, 734, 297, 2744 were the most popular.
@@ -78,7 +80,7 @@ When it comes to content analysis, genre is one of the features that can differ 
 5. The Number of users listening to genre 0 was four times more without listening in the flow, whereas, there were more variety genres appearing when 6. users were listening in the flow.
 7. Genre preference was different between user age groups. Among that, gerne_id 0 domainted genre preference across all user age groups, while user age 19 8. is the main audience of this genre.
 
-## User listening pattern analysis based on user age
+### User listening pattern analysis based on user age
 
 Attributes ‘user_id’, ‘user_age’, ‘media_id’ (songs) were aggregated for calculating average number of songs listened per user and the percentage of songs listened across each user age group. The result is summarized as below:
 
@@ -98,7 +100,7 @@ It was a great experience to work on a dataset which contains millions of entrie
 On the other hand, there are many categorical attributes which are replaced with numeric labels in the given dataset; it would be helpful to have the original labels of each categorical variable, which can help analysts form problem statements or hypotheses as well as provide better interpretation when analyzing data.
 
 # Notebook
-[Python Notebook](https://github.com/hsuwanying/music-streaming-analytic/blob/main/deezer_dataanalysis_result.ipynb)
+[Python Notebook](https://github.com/hsuwanying/music-streaming-analytic/blob/main/deezer_eda_result.ipynb)
 
 # Reference
  - Adiyansjan, Gunawan, A. A., & Suhartono, D. (2019). Music Recommader Systen Based on Genre using COnvolutional Recurrent Neural Networls. Procedia Computer Science 157, 99-109.
