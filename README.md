@@ -121,13 +121,13 @@ User age is added to Table 2 to compare user listening behaviour accros ten age 
 ## User behaviour & perference analysis
 Time is an essential factor which shifts users perderence from time to time. 24 hours are divded into six sesession, the graph at the left below shows user listening time based on `session`,we found that users started listening to music in the morning, reached the peak in the afternoon, and then dropped in the evening. The graph at the right side gives more detail about the variety of number of users changes hourly-based. 
 
-<p float="left">
+<p float="center">
   <img width="400" alt="session" class="center" src="https://user-images.githubusercontent.com/72688726/187429311-17f417cd-42cd-46e6-bf64-eff373b30c3c.png">
    <img width="400" alt="hour" src="https://user-images.githubusercontent.com/72688726/187435624-c8dc0f3b-02c4-48c7-ab05-13459cb900a7.png">
 </p>
 
 
-<p float="left">
+<p float="center">
  <img width="400" alt="platform_family" src="https://user-images.githubusercontent.com/72688726/187464284-094e1ac2-7136-499a-880b-06643ea597c4.png">
  <img width="400" alt="platform_name" src="https://user-images.githubusercontent.com/72688726/187464401-6844ab22-dd05-4b65-ab2c-2836ff935574.png">
 </p>
@@ -135,7 +135,7 @@ Time is an essential factor which shifts users perderence from time to time. 24 
 ## Genre Analysis
 When it comes to content analysis, genre is one of the features that can differ from time to time, as well as influenced by the surrounding scenarios of users. We found that there are 6 main genres, genre id 0, 7, 10 ,25, 27 and 14, were very popular among all other attributes, such as hour, session, context, platform, listen type and user_age. In other words, no matter the time, the user age or the context, these 6 genres would be favored by the users. Key findings are listed below and graphical analysis can be seen in [deezer_eda_result](https://github.com/hsuwanying/music-streaming-analytic/blob/main/deezer_eda_result.ipynb) 
 
-<p float="left">
+<p float="center">
  <img width="300" alt="album" src="https://user-images.githubusercontent.com/72688726/187462891-34b9a947-c38c-4de0-84b1-cefd5106def6.png">
  <img width="300" alt="artist" src="https://user-images.githubusercontent.com/72688726/187462960-7d3c728e-f9fb-492c-8ee3-201fa4096baa.png">
  <img width="300" alt="gerne" src="https://user-images.githubusercontent.com/72688726/187463242-3ad1876a-2039-46c4-9f51-f2a970c3ff1b.png">
