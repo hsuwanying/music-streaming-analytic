@@ -151,16 +151,16 @@ When it comes to content analysis, genre is one of the features that can differ 
   5. Majority of users listening in the flow skipped more songs than users who were not in a flow, except users aged 19 and 30 
 
 - User Behaviour
- 1. Number of active users dramatically increased between 5am to 6am.
- 2. The highest number of listeners showed up between 4 to 6pm, with figures above 500,000.
- 3. The number of users constantly decreased in the evening and dropped to 200,000 at 23 pm. 
+  1. Number of active users dramatically increased between 5am to 6am.
+  2. The highest number of listeners showed up between 4 to 6pm, with figures above 500,000.
+  3. The number of users constantly decreased in the evening and dropped to 200,000 at 23 pm. 
 
 - Gerne Perference
- 1. Genre_id 0 was the most popular genre among the top 10 ranking.
- 2. Genre_id 0, 7, 10 ,25, 27, 14, 734, 297, 2744 were the most popular.
- 3. Popular genres are beloved across most sessions. Except that genre_id 2744 was not popular during night and midnight, genre_id 50 was preferable during the Night, and genre_id 3645 in the midnight.
- 4. The Number of users listening to genre 0 was four times more without listening in the flow, whereas, there were more variety genres appearing when 6. users were listening in the flow.
- 5. Genre preference was different between user age groups. Among that, gerne_id 0 domainted genre preference across all user age groups, while user age 19 is the main audience of this genre.
+  1. Genre_id 0 was the most popular genre among the top 10 ranking.
+  2. Genre_id 0, 7, 10 ,25, 27, 14, 734, 297, 2744 were the most popular.
+  3. Popular genres are beloved across most sessions. Except that genre_id 2744 was not popular during night and midnight, genre_id 50 was preferable during the Night, and genre_id 3645 in the midnight.
+  4. The Number of users listening to genre 0 was four times more without listening in the flow, whereas, there were more variety genres appearing when 6. users were listening in the flow.
+  5. Genre preference was different between user age groups. Among that, gerne_id 0 domainted genre preference across all user age groups, while user age 19 is the main audience of this genre.
 
 # Conclusion
 To sum up, we found that **time** is one of the most critical elements that can affect the user when it comes to listening type of songs. Music preference also changed differently between user age groups, platform, and listen environments. To improve the new feature FLOW and reduce user bouncing rate, a context-based recommendation system is suggested, nevertheless, personalized features need to be considered when building such a model.
