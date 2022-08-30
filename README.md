@@ -35,7 +35,7 @@ Original Kaggle Challenge: To predict whether the users of the test dataset list
 </blockquote>
 
 # Solution
-The original goal of this kaggle challenge is to improve the recommender system that can accurately predict and suggest a track the user will listen more than 30 seconds. Positive User experience matters to business success and is crucial when measuring product performance. Besides predicting whether a user would skip a song or not to create a recommender system, in this project, I conducted a user preference analysis to generate insights from user age, user activities, music preference and listening patterns into the user experience to optimize Deezer's recommendation system. 
+The original goal of this kaggle challenge is to improve the recommender system that can accurately predict and suggest a track the user will listen more than 30 seconds. Notheless, having positive **User experience** matters to business success and is crucial when measuring product performance. Besides predicting whether a user would skip a song or not to create a recommender system, in this project, I conducted a user preference analysis to generate insights from user age, user activities, music preference and listening patterns into the user experience to optimize Deezer's recommendation system. 
 
 ## Process
  - Business Background Research
