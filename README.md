@@ -1,10 +1,3 @@
-<style>
-figcaption {
-  color: black;
-  text-align: center;
-}
-</style>
-
 ![viktor-forgacs-B88PgQXS4qg-unsplash](https://user-images.githubusercontent.com/72688726/187309445-3085b23f-55d6-4212-bb72-5a5c6a506ad5.jpg)
 Photo by [Viktor Forgac](https://unsplash.com/@sonance?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/B88PgQXS4qg)
 
@@ -101,7 +94,7 @@ Time is an essential factor which shifts users perderence from time to time.
 
 <figure>
  <img width="400" alt="session" class="center" src="https://user-images.githubusercontent.com/72688726/187429311-17f417cd-42cd-46e6-bf64-eff373b30c3c.png">
- <figcaption>Fig.1 - User Listening Time based on Session.</figcaption>
+ <figcaption text-align="center" <p>User Listening Time based on Session</p> </figcaption>
 </figure>
 
 we found that users started listening to music in the morning, reached the peak in the afternoon, and then dropped in the evening. The image  gives more detail about the variety of number of users changes hourly-based. Key findings are summarized as following:
