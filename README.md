@@ -14,8 +14,8 @@ This project is submitted as part of assignemnt the Recommader System module for
  - [Initial Situation](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#initial-situation)
  - [Business Problem](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#business-problem)
  - [Solution](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#solution)
- - [Process](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#process)
  - [Data Source](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#data-source)
+ - [Methods](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#methods)
  - [Data Analysis](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#data-analysis)
  - [Conclusion](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#conclusion)
  - [Project Reflection](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#project-reflection)
@@ -35,11 +35,6 @@ Kaggle Challenge: To predict whether the users of the test dataset listened to t
 
 # Solution
 The original goal of this kaggle challenge is to improve the recommender system that can accurately predict and suggest a track the user will listen more than 30 seconds. Notheless, having positive **User experience** matters to business success and is crucial when measuring product performance. Besides predicting whether a user would skip a song or not to create a recommender system, in this project, I conducted a user preference analysis to generate insights from user age, user activities, music preference and listening patterns into the user experience to optimize Deezer's recommendation system. 
-
-## Process
- - Business Background Research
- - Data Exploration
- - Feature Engnerring and Data Analysis
 
 # Data Source
 The data is originated from a [Kaggle challenge](https://www.kaggle.com/c/dsg17-online-phase).
@@ -63,8 +58,10 @@ The target variable of this dataset is is_listened. There are 7'558'834 obersvat
  - artist_id: identifiant of the artist of the song
  - is_listened: 1 refers a track was listened, 0 otherwise
 
-# Data Analysis
-The process consists three steps: data prepreocessing, feature engineering and data exploration with graphical analysis
+# Methods
+ - Data prepreocessing
+ - Data Exploration
+ - Feature Engnerring and Data Analysis
 
 ## Preprocessing
 After the data exploration, we’ve found three main issues in the train dataset:
@@ -85,25 +82,22 @@ To better understand user preferences, behaviors and listening patterns, a serie
 
 More detail can be seen in [Deezer data analysis result](https://github.com/hsuwanying/music-streaming-analytic/blob/main/deezer_dataanalysis_result.ipynb)file.
 
-## User preference analysis
-Time is an essential factor which shifts users perderence from time to time. In Figure 2, user listening time in session, we found that users started listening to music in the morning, reached the peak in the afternoon, and then dropped in the evening. Figure 3 gives more detail about the variety of number of users changes hourly-based. Key findings are summarized as following:
+# Data Analysis
+
+## User behaviour analysis
+Time is an essential factor which shifts users perderence from time to time. 
+
+24 hours are divded into six sesession, the graph below shows user listening time based on `session`,
+<img width="400" alt="session" src="https://user-images.githubusercontent.com/72688726/187429311-17f417cd-42cd-46e6-bf64-eff373b30c3c.png">
+<figcaption>Fig.1 - User Listening Time based on Session.</figcaption>
+
+ we found that users started listening to music in the morning, reached the peak in the afternoon, and then dropped in the evening. The image  gives more detail about the variety of number of users changes hourly-based. Key findings are summarized as following:
 
 1. Number of active users dramatically increased between 5am to 6am.
 2. The highest number of listeners showed up between 4 to 6pm, with figures above 500,000.
 3. The number of users constantly decreased in the evening and dropped to 200,000 at 23 pm. 
 
-## Genre Preference analysis
-When it comes to content analysis, genre is one of the features that can differ from time to time, as well as influenced by the surrounding scenarios of users. We found that there are 6 main genres, genre id 0, 7, 10 ,25, 27 and 14, were very popular among all other attributes, such as hour, session, context, platform, listen type and user_age. In other words, no matter the time, the user age or the context, these 6 genres would be favored by the users. Key findings are listed below and graphical analysis can be seen in [deezer_eda_result](https://github.com/hsuwanying/music-streaming-analytic/blob/main/deezer_eda_result.ipynb) 
-
-### Genre Analysis :
-
-1. Genre_id 0 was the most popular genre among the top 10 ranking.
-2. Genre_id 0, 7, 10 ,25, 27, 14, 734, 297, 2744 were the most popular.
-3. Popular genres are beloved across most sessions. Except that genre_id 2744 was not popular during night and midnight, genre_id 50 was preferable during 4. the Night, and genre_id 3645 in the midnight.
-5. The Number of users listening to genre 0 was four times more without listening in the flow, whereas, there were more variety genres appearing when 6. users were listening in the flow.
-7. Genre preference was different between user age groups. Among that, gerne_id 0 domainted genre preference across all user age groups, while user age 19 8. is the main audience of this genre.
-
-### User listening pattern analysis based on user age
+## User listening pattern analysis based on user age
 
 Attributes ‘user_id’, ‘user_age’, ‘media_id’ (songs) were aggregated for calculating average number of songs listened per user and the percentage of songs listened across each user age group. The result is summarized as below:
 
@@ -112,6 +106,15 @@ Attributes ‘user_id’, ‘user_age’, ‘media_id’ (songs) were aggregated
 3. Users with a 30 year-old age were more likely to finish songs recommended by the system.
 4. Users aged 30 listened to nearly two times more songs than users aged above 20.
 5. Majority of users listening in the flow skipped more songs than users who were not in a flow, except users aged 19 and 30 
+
+## Genre Analysis
+When it comes to content analysis, genre is one of the features that can differ from time to time, as well as influenced by the surrounding scenarios of users. We found that there are 6 main genres, genre id 0, 7, 10 ,25, 27 and 14, were very popular among all other attributes, such as hour, session, context, platform, listen type and user_age. In other words, no matter the time, the user age or the context, these 6 genres would be favored by the users. Key findings are listed below and graphical analysis can be seen in [deezer_eda_result](https://github.com/hsuwanying/music-streaming-analytic/blob/main/deezer_eda_result.ipynb) 
+
+1. Genre_id 0 was the most popular genre among the top 10 ranking.
+2. Genre_id 0, 7, 10 ,25, 27, 14, 734, 297, 2744 were the most popular.
+3. Popular genres are beloved across most sessions. Except that genre_id 2744 was not popular during night and midnight, genre_id 50 was preferable during 4. the Night, and genre_id 3645 in the midnight.
+5. The Number of users listening to genre 0 was four times more without listening in the flow, whereas, there were more variety genres appearing when 6. users were listening in the flow.
+7. Genre preference was different between user age groups. Among that, gerne_id 0 domainted genre preference across all user age groups, while user age 19 8. is the main audience of this genre.
 
 # Conclusion
 To sum up, we found that **time** is one of the most critical elements that can affect the user when it comes to listening type of songs. Music preference also changed differently between user age groups, platform, and listen environments. To improve the new feature FLOW and reduce user bouncing rate, a context-based recommendation system is suggested, nevertheless, personalized features need to be considered when building such a model.
