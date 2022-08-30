@@ -5,7 +5,7 @@ Photo by [Viktor Forgac](https://unsplash.com/@sonance?utm_source=unsplash&utm_m
 
 Music streaming services allow people to access various types of music and millions of tracks with their smart devices and to customize playlists based on their preferences. These advanced features have made listening to music much easier than ever (Adiyansjan, Gunawan, & Suhartono, 2019). Neverthless, having an abundance of choices could delay users at making decisions and detering their motivation to stay with the services (Maasø & Hagen, 2020). Hence, businesses who wish to increase competitive advantages and enhance user stickiness towards digital products, it is essential to develop a recommender system, a mechanism that can automatically suggest media meeting user’s expectation (Hansen, et al., 2021). 
 
-This project is submitted as part of assignemnt the Recommader System module for MSc in Applied Information and Data Science at School of Business, Lucerne University of Applied Science and Arts
+This project is submitted as part of assignemnt the Recommader System module for MSc in [IDS](https://www.hslu.ch/en/lucerne-school-of-business/degree-programmes/master/applied-information-and-data-science/) at [HSLU](https://www.hslu.ch/de-ch/)
 
 # Author
 [Carol Hsu](https://github.com/hsuwanying)
