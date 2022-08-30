@@ -17,6 +17,7 @@ This project is submitted as part of assignemnt the Recommader System module for
  - [Data Analysis](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#data-analysis)
  - [Conclusion](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#conclusion)
  - [Project Reflection](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#project-reflection)
+ - [Notebook](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#notebook)
  - [Reference](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#reference)
 
 # Business Problem
@@ -58,7 +59,7 @@ After the data exploration, we’ve found three main issues in the train dataset
 2. 29,779 data entries where ts_listen is greater than released_date
 3. There are 2 records where ts_listen is earlier than the time when Deezer was founded (in 2006) 
 
-To better understand user preferences, behaviors and listening patterns, a series of feature engineering was conducted. Time-related features such as year, month, day, weekday, is_weekend, hour, minutes and seconds were derived from ‘ts_listen’, which indicates the time a user starts to listen to a track. After that, season and sessions were derived from month and hour, and ladled with four seasons and six different time sessions. Last, user listening patterns including ‘listen_diff’, ‘listen_percent’,  ‘time_gap’,  ‘listen_start’,  ‘listen_end’ were created by aggregating ‘user_id’, ‘ts_listen’,  ‘user_age’,  ‘media_duration’ and ‘media_id’. More detail can be seen in Deezer_eda_result.ipynb file.
+To better understand user preferences, behaviors and listening patterns, a series of feature engineering was conducted. Time-related features such as year, month, day, weekday, is_weekend, hour, minutes and seconds were derived from ‘ts_listen’, which indicates the time a user starts to listen to a track. After that, season and sessions were derived from month and hour, and ladled with four seasons and six different time sessions. Last, user listening patterns including ‘listen_diff’, ‘listen_percent’,  ‘time_gap’,  ‘listen_start’,  ‘listen_end’ were created by aggregating ‘user_id’, ‘ts_listen’,  ‘user_age’,  ‘media_duration’ and ‘media_id’. More detail can be seen in [Deezer data analysis result](https://github.com/hsuwanying/music-streaming-analytic/blob/main/deezer_dataanalysis_result.ipynb)file.
 
 # Data Analysis
 ## User preference analysis
@@ -95,6 +96,9 @@ To sum up, we found that **time** is one of the most critical elements that can 
 It was a great experience to work on a dataset which contains millions of entries. Ideally, it would be good to start data processing in a database due to the simplicity of programming. In addition, performing data queries can help us to have a quick glance of data and have better understanding when performing some statistical calculations. 
 
 On the other hand, there are many categorical attributes which are replaced with numeric labels in the given dataset; it would be helpful to have the original labels of each categorical variable, which can help analysts form problem statements or hypotheses as well as provide better interpretation when analyzing data.
+
+# Notebook
+[Python Notebook](https://github.com/hsuwanying/music-streaming-analytic/blob/main/deezer_dataanalysis_result.ipynb)
 
 # Reference
  - Adiyansjan, Gunawan, A. A., & Suhartono, D. (2019). Music Recommader Systen Based on Genre using COnvolutional Recurrent Neural Networls. Procedia Computer Science 157, 99-109.
