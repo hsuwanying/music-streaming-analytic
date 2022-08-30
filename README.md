@@ -39,7 +39,7 @@ Kaggle Challenge: To predict whether the users of the test dataset listened to t
 <img width="817" alt="flow" align = "center" src="https://user-images.githubusercontent.com/72688726/187404204-8281894e-390a-4094-aae8-d29a0015a06c.png">
 </p>
 
-<p align = "center"> Deezer - FLOW 
+<p align = "center"> <a href="https://features.deezer.com/flow/">Deezer - FLOW</a> 
 </p>
 
 # Solution
