@@ -91,18 +91,10 @@ More detail can be seen in [Deezer data analysis result](https://github.com/hsuw
 Time is an essential factor which shifts users perderence from time to time. 
 
 24 hours are divded into six sesession, the graph below shows user listening time based on `session`,
-
-
-<figure>
- <div class="row">
-  <div class="column">
-   <img width="400" alt="session" class="center" src="https://user-images.githubusercontent.com/72688726/187429311-17f417cd-42cd-46e6-bf64-eff373b30c3c.png">
-   </div>
-  <div class="column">
-   <img width="400" alt="session" class="center" src="https://user-images.githubusercontent.com/72688726/187429311-17f417cd-42cd-46e6-bf64-eff373b30c3c.png">
-   </div>
-  </div>
-</figure>
+<p float="left">
+  <img width="400" alt="session" class="center" src="https://user-images.githubusercontent.com/72688726/187429311-17f417cd-42cd-46e6-bf64-eff373b30c3c.png">
+  <img width="400" alt="session" class="center" src="https://user-images.githubusercontent.com/72688726/187429311-17f417cd-42cd-46e6-bf64-eff373b30c3c.png"> 
+</p>
 
 we found that users started listening to music in the morning, reached the peak in the afternoon, and then dropped in the evening. The image  gives more detail about the variety of number of users changes hourly-based. Key findings are summarized as following:
 
