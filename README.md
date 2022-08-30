@@ -84,7 +84,7 @@ To better understand user preferences, behaviors and listening patterns, a serie
 
  - **Time-related features**: such as year, month, day, weekday, is_weekend, hour, minutes and seconds were derived from `ts_listen`, which indicates the time a user starts to listen to a track. After that, season and sessions were derived from month and hour, and ladled with four seasons and six different time sessions. 
  - **User-related features**: user behaviour and listening patterns are created by aggregating `user_id`, `ts_listen`,  `user_age`,  `media_duration` and `media_id`. 
-  - `listen_diff: User listen music duration
+  - `listen_diff`: User listen music duration
   - `listen_percent`: the percentage of a song is listened 
   - `time_gap`: the gap before the next listen sesstion  
   - `listen_start`: the time a user start to listen music
@@ -108,28 +108,34 @@ Key findings are summarized as following:
 2. The highest number of listeners showed up between 4 to 6pm, with figures above 500,000.
 3. The number of users constantly decreased in the evening and dropped to 200,000 at 23 pm. 
 
-## User listening pattern analysis based on Flow `listen_type`
-<p align = "center">
-<img width="569" alt="media_perc" src="https://user-images.githubusercontent.com/72688726/187438440-81f05860-8157-4584-af35-dcd757395eb2.png">
-</p>
+## User listening pattern analysis based on `listen_type` FLOW
 
-<p align = "center"> 
-</p>
-
-<img width="265" alt="ave_lis_perc" src="https://user-images.githubusercontent.com/72688726/187438440-81f05860-8157-4584-af35-dcd757395eb2.png">
-
-<img width="329" alt="age_lis_perc_flow" src="https://user-images.githubusercontent.com/72688726/187438395-ae28615f-81c7-45d7-a94d-386f9f04e7d9.png">
-
-
-Attributes `user_id`, `user_age`, `media_id` (songs) were aggregated for calculating average number of songs listened per user and the percentage of songs listened across each user age group. The result is summarized as below:
+The `listen_type` indicates a user listen music use FLOW(`listen_type = 1`) or not (`listen_type = 0`)<br>
+Attributes `user_id`, `user_age`, `media_id` (songs) were aggregated for calculating average number of songs listened per user and the percentage of songs listened across each user age group.<br>
 
 <p align = "center">
 <img width="569" alt="media_perc" src="https://user-images.githubusercontent.com/72688726/187438204-b337eccb-5ba9-4c85-b684-266f76f08138.png">
 </p>
 
-<p align = "center">Media Listening duration 
+<p align = "center">Media listening duration 
 </p>
 
+<p align = "center">
+<img width="265" alt="ave_lis_perc" src="https://user-images.githubusercontent.com/72688726/187438440-81f05860-8157-4584-af35-dcd757395eb2.png">
+</p>
+
+<p align = "center">Average media listening percentage with and wihout FLOW function
+</p>
+
+<p align = "center">
+<img width="329" alt="age_lis_perc_flow" src="https://user-images.githubusercontent.com/72688726/187438395-ae28615f-81c7-45d7-a94d-386f9f04e7d9.png">
+</p>
+
+<p align = "center">Media listening percentage with and wihout FLOW function based on Age group 
+</p>
+
+
+The result is summarized as below:
 1. The number of songs, the length of songs and song listened percentage increased gradually as the age rises.
 2. Young users were more likely to skip songs than the 30-year-old age group.
 3. Users with a 30 year-old age were more likely to finish songs recommended by the system.
