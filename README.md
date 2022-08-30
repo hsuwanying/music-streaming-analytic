@@ -4,8 +4,8 @@ Photo by [Viktor Forgac](https://unsplash.com/@sonance?utm_source=unsplash&utm_m
 <p align = "center">
 <img src = "https://user-images.githubusercontent.com/72688726/187309445-3085b23f-55d6-4212-bb72-5a5c6a506ad5.jpg">
 </p>
-<p align = "center">
-Photo by [Viktor Forgac](https://unsplash.com/@sonance?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/B88PgQXS4qg)
+<p align = "center"> Photo by
+ <a href="https://unsplash.com/@sonance?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Viktor Forgac</a> on <a href="https://unsplash.com/photos/B88PgQXS4qg">Unsplash</a>
 </p>
 
 
