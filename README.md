@@ -32,8 +32,7 @@ Deezer, is a French music streaming service provider founded in 2006. It provide
 
 # Business Problem
 <blockquote cite="https://www.kaggle.com/c/dsg17-online-phase">
-**Original Kaggle Challenge**
-To predict whether the users of the test dataset listened to the first track Flow proposed them or not. Deezer considers that a track is "listened" if the user has listened to more than 30 seconds of it (is_listened =1). If the user presses the skip button to change the song before 30 seconds, then the track is not considered as being listened (is_listened = 0).
+To predict whether the users of the test dataset listened to the first track Flow proposed them or not. Deezer considers that a track is "listened" if the user has listened to more than 30 seconds of it (is_listened =1). If the user presses the skip button to change the song before 30 seconds, then the track is not considered as being listened (is_listened = 0). (Original Kaggle Challenge)
 </blockquote>
 
 Positive User expereince is critial to business sucess, desipt of predicting a user would skip a song or not, a comprehasive user data analysis is conducted as to to improve Deezer user experience by optimizing its recommendation system. 
