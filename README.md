@@ -1,6 +1,8 @@
 ![viktor-forgacs-B88PgQXS4qg-unsplash](https://user-images.githubusercontent.com/72688726/187309445-3085b23f-55d6-4212-bb72-5a5c6a506ad5.jpg)
 Photo by [Viktor Forgac](https://unsplash.com/@sonance?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/B88PgQXS4qg)
 
+<img width="817" alt="flow" src="https://user-images.githubusercontent.com/72688726/187404204-8281894e-390a-4094-aae8-d29a0015a06c.png">
+
 # Music Streaming Analytics
 ## Improving user listenting experience with music listening history data analysis 
 
@@ -25,7 +27,6 @@ This project is submitted as part of assignemnt the Recommader System module for
 
 
 # Initial Situation
-<img width="817" alt="flow" src="https://user-images.githubusercontent.com/72688726/187404204-8281894e-390a-4094-aae8-d29a0015a06c.png">
 [Deezer](https://www.deezer.com/en/), is a French music streaming service provider founded in 2006. It provides 73 million tracks and customized features based on subscription types. In addition, Deezer utilizes non-personalized recommendations based on common interests, which filter user's preference and listening history. In 2016, Deezer introduced an exclusive feature - [Flow](https://features.deezer.com/flow/) - an optimized recommendation system based on the user's mood. According to the company, this new feature recommends new or have listened tracks based on users' favorites, and provides users with various music choices based on the time. In other words, users are able to listen to music depending on different moods, contexts or specific events.
 
 # Business Problem
