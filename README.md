@@ -1,8 +1,8 @@
 <p align = "center">
-<img src = "https://user-images.githubusercontent.com/72688726/187309445-3085b23f-55d6-4212-bb72-5a5c6a506ad5.jpg">
+<img src = "https://user-images.githubusercontent.com/72688726/187465826-02188c10-55de-435f-81f7-ae27c2c61fcb.jpg">
 </p>
-<p align = "center"> Photo by
- <a href="https://unsplash.com/@sonance?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Viktor Forgac</a> on <a href="https://unsplash.com/photos/B88PgQXS4qg">Unsplash</a>
+<p align = "center">
+ <a href="">Deezer FLOW</a>
 </p>
 
 # Music Streaming Analytics: Improving user listenting experience with music listening history data analysis
@@ -36,13 +36,6 @@ This project is submitted as part of assignemnt the Recommader System module for
 <blockquote cite="https://www.kaggle.com/c/dsg17-online-phase">
 Kaggle Challenge: To predict whether the users of the test dataset listened to the first track Flow proposed them or not. Deezer considers that a track is "listened" if the user has listened to more than 30 seconds of it (is_listened =1). If the user presses the skip button to change the song before 30 seconds, then the track is not considered as being listened (is_listened = 0).
 </blockquote>
-<br></br>
-<p align = "center">
-<img width="817" alt="flow" align = "center" src="https://user-images.githubusercontent.com/72688726/187404204-8281894e-390a-4094-aae8-d29a0015a06c.png">
-</p>
-
-<p align = "center"> <a href="https://features.deezer.com/flow/">Deezer - FLOW</a> 
-</p>
 
 # Solution
 The original goal of this kaggle challenge is to improve the recommender system that can accurately predict and suggest a track the user will listen more than 30 seconds. Nonetheless, having positive **User experience** is crucial when measuring product performance, besides predicting whether a user would skip a song or not to create a recommender system, in this project, I conducted a user preference analysis to generate insights from user age, user activities, music preference and listening patterns into the user experience to optimize Deezer's recommendation system. 
