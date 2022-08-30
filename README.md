@@ -4,12 +4,15 @@ Photo by [Viktor Forgac](https://unsplash.com/@sonance?utm_source=unsplash&utm_m
 # Music Streaming Analytics
 Improving user listenting experience with music listening history data analysis 
 
+Music streaming services allow people to access various types of music and millions of tracks with their smart devices and to customize playlists based on their preferences. These advanced features have made listening to music much easier than ever (Adiyansjan, Gunawan, & Suhartono, 2019). Neverthless, having an abundance of choices could delay users at making decisions and detering their motivation to stay with the services (Maasø & Hagen, 2020). Hence, businesses who wish to increase competitive advantages and enhance user stickiness towards digital products, it is essential to develop a recommender system, a mechanism that can automatically suggest media meeting user’s expectation (Hansen, et al., 2021). 
+
 This project is submitted as part of assignemnt the Recommader System module for MSc in Applied Information and Data Science at School of Business, Lucerne University of Applied Science and Arts
 
 # Author
 [Carol Hsu](https://github.com/hsuwanying)
 
 # Table of Content
+ - [Initial Situation](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#initial-situation)
  - [Business Problem](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#business-problem)
  - [Solution](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#solution)
  - [Process](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#process)
@@ -20,8 +23,17 @@ This project is submitted as part of assignemnt the Recommader System module for
  - [Notebook](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#notebook)
  - [Reference](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#reference)
 
+
+# Initial Situation
+Deezer, is a French music streaming service provider founded in 2006. It provides 73 million tracks and customized features based on subscription types. In addition, Deezer utilizes non-personalized recommendations based on common interests, which filter user's preference and listening history. In 2016, Deezer introduced an exclusive feature - Flow - an optimized recommendation system based on the user's mood. According to the company, this new feature recommends new or have listened tracks based on users' favorites, and provides users with various music choices based on the time. In other words, users are able to listen to music depending on different moods, contexts or specific events.
+![Uploading flow.png…](https://features.deezer.com/flow/?_gl=1*1ao5gwv*_ga*MjA4NTA5NjczNC4xNjYxODUwNzE0*_ga_71WQ7Y8JLG*MTY2MTg1MDcxMy4xLjAuMTY2MTg1MDcxMy4wLjAuMA..)
+
 # Business Problem
-Music streaming services allow people to access various types of music and millions of tracks with their smart devices and to customize playlists based on their preferences. These advanced features have made listening to music much easier than ever (Adiyansjan, Gunawan, & Suhartono, 2019). Neverthless, having an abundance of choices could delay users at making decisions and detering their motivation to stay with the services (Maasø & Hagen, 2020). Hence, businesses who wish to increase competitive advantages and enhance user stickiness towards digital products, it is essential to develop a recommender system, a mechanism that can automatically suggest media meeting user’s expectation (Hansen, et al., 2021). 
+### Goal
+
+**The goal of this challenge is to predict whether the users of the test dataset listened to the first track Flow proposed them or not.** Deezer considers that a track is "listened" if the user has listened to more than 30 seconds of it (is_listened =1). If the user presses the skip button to change the song before 30 seconds, then the track is not considered as being listened (is_listened = 0).
+
+Positive User expereince is critial to business sucess, desipt of predicting a user would skip a song or not, a comprehasive user data analysis is conducted as to to improve Deezer user experience by optimizing its recommendation system. 
 
 # Solution
 The goal of this project is to improve the recommader system that can accurately predict and suggest a track the user will listen more than 30 second. To achieve that, a user perferece analysis is conducted to better understand user related information, including, user demography, user actvites, gerner perference and listening patterns as to improve thier listening expereince with Deezer.   
@@ -53,15 +65,28 @@ The target variable of this dataset is is_listened. There are 7'558'834 obersvat
  - artist_id: identifiant of the artist of the song
  - is_listened: 1 refers a track was listened, 0 otherwise
 
- 
+# Data Analysis
+The process consists three steps: data prepreocessing, feature engineering and data exploration with graphical analysis
+
+## Preprocessing
 After the data exploration, we’ve found three main issues in the train dataset:
 1. There 17 entries of released_date is 30000101, which cannot be recognized with the time format
 2. 29,779 data entries where ts_listen is greater than released_date
 3. There are 2 records where ts_listen is earlier than the time when Deezer was founded (in 2006) 
 
-To better understand user preferences, behaviors and listening patterns, a series of feature engineering was conducted. Time-related features such as year, month, day, weekday, is_weekend, hour, minutes and seconds were derived from ‘ts_listen’, which indicates the time a user starts to listen to a track. After that, season and sessions were derived from month and hour, and ladled with four seasons and six different time sessions. Last, user listening patterns including ‘listen_diff’, ‘listen_percent’,  ‘time_gap’,  ‘listen_start’,  ‘listen_end’ were created by aggregating ‘user_id’, ‘ts_listen’,  ‘user_age’,  ‘media_duration’ and ‘media_id’. More detail can be seen in [Deezer data analysis result](https://github.com/hsuwanying/music-streaming-analytic/blob/main/deezer_dataanalysis_result.ipynb)file.
+## Feature engineering
+To better understand user preferences, behaviors and listening patterns, a series of feature engineering was conducted. 
 
-# Data Analysis
+ - **Time-related features**: such as year, month, day, weekday, is_weekend, hour, minutes and seconds were derived from `ts_listen`, which indicates the time a user starts to listen to a track. After that, season and sessions were derived from month and hour, and ladled with four seasons and six different time sessions. 
+ - **User-related features**: user behaviour and listening patterns are created by aggregating `user_id`, `ts_listen`,  `user_age`,  `media_duration` and `media_id`. 
+  - `listen_diff: User listen music duration
+  - `listen_percent`: the percentage of a song is listened 
+  - `time_gap`: the gap before the next listen sesstion  
+  - `listen_start`: the time a user start to listen music
+  - `listen_end`: the time a user stop to listen music
+
+More detail can be seen in [Deezer data analysis result](https://github.com/hsuwanying/music-streaming-analytic/blob/main/deezer_dataanalysis_result.ipynb)file.
+
 ## User preference analysis
 Time is an essential factor which shifts users perderence from time to time. In Figure 2, user listening time in session, we found that users started listening to music in the morning, reached the peak in the afternoon, and then dropped in the evening. Figure 3 gives more detail about the variety of number of users changes hourly-based. Key findings are summarized as following:
 
