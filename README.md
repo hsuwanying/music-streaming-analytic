@@ -92,13 +92,14 @@ Fistly, we can quickly have a look at the FLOW feature, which is the column `lis
 
 Table 1 gives information about the avarage lenght of songs people listen and percentage of song listening within and without FLOW function. It clearly shows that, user do not use flow function listened 3 times longer than user in the FLOW. More specficly, users who do not use flow function listened nearly 60% of a song, in contrast, users who use flow function only listened less than 20% of a song which is recommmaded by the system.
 
+<br>
 <p align = "center">
 <img width="550" alt="ave_lis_perc" src="https://user-images.githubusercontent.com/72688726/187438440-81f05860-8157-4584-af35-dcd757395eb2.png">
 </p>
 <p align = "center">Table 1. Average media listening percentage with and wihout FLOW function
 </p>
-<br>
 
+<br>
 User age is added to Table 2 to compare user listening behaviour accros ten age groups
 
 <p align = "center">
@@ -107,6 +108,7 @@ User age is added to Table 2 to compare user listening behaviour accros ten age 
 <p align = "center">Table 2. Media listening duration 
 </p>
 
+<br>
 `listen_type` is added to Table 3 to compare users listening behaviour accros ten age groups within and without FLOW function
 
 <p align = "center">
@@ -135,14 +137,8 @@ When it comes to content analysis, genre is one of the features that can differ 
 
 <p float="left">
  <img width="300" alt="album" src="https://user-images.githubusercontent.com/72688726/187462891-34b9a947-c38c-4de0-84b1-cefd5106def6.png">
-<p align = "center">Top 10 Album 
-</p>
  <img width="300" alt="artist" src="https://user-images.githubusercontent.com/72688726/187462960-7d3c728e-f9fb-492c-8ee3-201fa4096baa.png">
- <p align = "center">Top 10 Artists
-</p>
  <img width="300" alt="gerne" src="https://user-images.githubusercontent.com/72688726/187463242-3ad1876a-2039-46c4-9f51-f2a970c3ff1b.png">
- <p align = "center">Top 10 Gerne
-</p>
 </p>
 
 
