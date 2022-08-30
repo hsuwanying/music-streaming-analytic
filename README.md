@@ -101,8 +101,12 @@ Time is an essential factor which shifts users perderence from time to time. 24 
    <img width="407" alt="hour" src="https://user-images.githubusercontent.com/72688726/187435624-c8dc0f3b-02c4-48c7-ab05-13459cb900a7.png">
 </p>
 
-<img width="322" alt="platform_fa" src="https://user-images.githubusercontent.com/72688726/187437983-26f1622e-51a0-4e61-910d-f9c3881b3d9d.png">
-<img width="326" alt="platform_name" src="https://user-images.githubusercontent.com/72688726/187438006-a328e11d-0045-4e5e-a04d-2b1f285ed8ab.png">
+<p float="left">
+ <img width="322" alt="platform_fa" src="https://user-images.githubusercontent.com/72688726/187437983-26f1622e-51a0-4e61-910d-f9c3881b3d9d.png">
+ <img width="326" alt="platform_name" src="https://user-images.githubusercontent.com/72688726/187438006-a328e11d-0045-4e5e-a04d-2b1f285ed8ab.png">
+</p>
+
+
 
 Key findings are summarized as following:
 
