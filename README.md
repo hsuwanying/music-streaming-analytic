@@ -28,7 +28,7 @@ This project is submitted as part of assignemnt the Recommader System module for
 
 # Business Problem
 <blockquote cite="https://www.kaggle.com/c/dsg17-online-phase">
-Original Kaggle Challenge: To predict whether the users of the test dataset listened to the first track Flow proposed them or not. Deezer considers that a track is "listened" if the user has listened to more than 30 seconds of it (is_listened =1). If the user presses the skip button to change the song before 30 seconds, then the track is not considered as being listened (is_listened = 0).
+Kaggle Challenge: To predict whether the users of the test dataset listened to the first track Flow proposed them or not. Deezer considers that a track is "listened" if the user has listened to more than 30 seconds of it (is_listened =1). If the user presses the skip button to change the song before 30 seconds, then the track is not considered as being listened (is_listened = 0).
 </blockquote>
 <img width="817" alt="flow" src="https://user-images.githubusercontent.com/72688726/187404204-8281894e-390a-4094-aae8-d29a0015a06c.png">
 
