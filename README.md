@@ -90,7 +90,7 @@ To better understand user preferences, behaviors and listening patterns, a serie
   - `listen_start`: the time a user start to listen music
   - `listen_end`: the time a user stop to listen music
 
-More detail can be seen in [Deezer data analysis result](https://github.com/hsuwanying/music-streaming-analytic/blob/main/deezer_dataanalysis_result.ipynb)file.
+More detail can be seen in [Deezer data analysis result](https://github.com/hsuwanying/music-streaming-analytic/blob/main/deezer_dataanalysis_result.ipynb).
 
 # Data Analysis
 
@@ -114,26 +114,25 @@ The `listen_type` indicates a user listen music use FLOW(`listen_type = 1`) or n
 Attributes `user_id`, `user_age`, `media_id` (songs) were aggregated for calculating average number of songs listened per user and the percentage of songs listened across each user age group.<br>
 
 <p align = "center">
-<img width="569" alt="media_perc" src="https://user-images.githubusercontent.com/72688726/187438204-b337eccb-5ba9-4c85-b684-266f76f08138.png">
+<img width="550" alt="media_perc" src="https://user-images.githubusercontent.com/72688726/187438204-b337eccb-5ba9-4c85-b684-266f76f08138.png">
 </p>
 
 <p align = "center">Media listening duration 
 </p>
 
 <p align = "center">
-<img width="265" alt="ave_lis_perc" src="https://user-images.githubusercontent.com/72688726/187438440-81f05860-8157-4584-af35-dcd757395eb2.png">
+<img width="550" alt="ave_lis_perc" src="https://user-images.githubusercontent.com/72688726/187438440-81f05860-8157-4584-af35-dcd757395eb2.png">
 </p>
-
+<br>
 <p align = "center">Average media listening percentage with and wihout FLOW function
 </p>
 
 <p align = "center">
-<img width="329" alt="age_lis_perc_flow" src="https://user-images.githubusercontent.com/72688726/187438395-ae28615f-81c7-45d7-a94d-386f9f04e7d9.png">
+<img width="550" alt="age_lis_perc_flow" src="https://user-images.githubusercontent.com/72688726/187438395-ae28615f-81c7-45d7-a94d-386f9f04e7d9.png">
 </p>
-
+<br>
 <p align = "center">Media listening percentage with and wihout FLOW function based on Age group 
 </p>
-
 
 The result is summarized as below:
 1. The number of songs, the length of songs and song listened percentage increased gradually as the age rises.
