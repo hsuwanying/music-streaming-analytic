@@ -101,6 +101,9 @@ Time is an essential factor which shifts users perderence from time to time. 24 
    <img width="407" alt="hour" src="https://user-images.githubusercontent.com/72688726/187435624-c8dc0f3b-02c4-48c7-ab05-13459cb900a7.png">
 </p>
 
+<img width="322" alt="platform_fa" src="https://user-images.githubusercontent.com/72688726/187437983-26f1622e-51a0-4e61-910d-f9c3881b3d9d.png">
+<img width="326" alt="platform_name" src="https://user-images.githubusercontent.com/72688726/187438006-a328e11d-0045-4e5e-a04d-2b1f285ed8ab.png">
+
 Key findings are summarized as following:
 
 1. Number of active users dramatically increased between 5am to 6am.
@@ -110,6 +113,9 @@ Key findings are summarized as following:
 ## User listening pattern analysis based on user age
 
 Attributes ‘user_id’, ‘user_age’, ‘media_id’ (songs) were aggregated for calculating average number of songs listened per user and the percentage of songs listened across each user age group. The result is summarized as below:
+<img width="569" alt="media_perc" src="https://user-images.githubusercontent.com/72688726/187438204-b337eccb-5ba9-4c85-b684-266f76f08138.png">
+<img width="329" alt="age_lis_perc_flow" src="https://user-images.githubusercontent.com/72688726/187438395-ae28615f-81c7-45d7-a94d-386f9f04e7d9.png">
+<img width="265" alt="ave_lis_perc" src="https://user-images.githubusercontent.com/72688726/187438440-81f05860-8157-4584-af35-dcd757395eb2.png">
 
 1. The number of songs, the length of songs and song listened percentage increased gradually as the age rises.
 2. Young users were more likely to skip songs than the 30-year-old age group.
