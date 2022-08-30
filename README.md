@@ -94,7 +94,6 @@ Time is an essential factor which shifts users perderence from time to time.
 
 <figure>
  <img width="400" alt="session" class="center" src="https://user-images.githubusercontent.com/72688726/187429311-17f417cd-42cd-46e6-bf64-eff373b30c3c.png">
- <figcaption text-align="center" <p>User Listening Time based on Session</p> </figcaption>
 </figure>
 
 we found that users started listening to music in the morning, reached the peak in the afternoon, and then dropped in the evening. The image  gives more detail about the variety of number of users changes hourly-based. Key findings are summarized as following:
