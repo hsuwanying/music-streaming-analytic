@@ -94,15 +94,14 @@ More detail can be seen in [Deezer data analysis result](https://github.com/hsuw
 # Data Analysis
 
 ## User behaviour analysis
-Time is an essential factor which shifts users perderence from time to time. 
+Time is an essential factor which shifts users perderence from time to time. 24 hours are divded into six sesession, the graph at the left below shows user listening time based on `session`,we found that users started listening to music in the morning, reached the peak in the afternoon, and then dropped in the evening. The graph at the right side gives more detail about the variety of number of users changes hourly-based. 
 
-24 hours are divded into six sesession, the graph below shows user listening time based on `session`,
 <p float="left">
   <img width="400" alt="session" class="center" src="https://user-images.githubusercontent.com/72688726/187429311-17f417cd-42cd-46e6-bf64-eff373b30c3c.png">
    <img width="407" alt="hour" src="https://user-images.githubusercontent.com/72688726/187435624-c8dc0f3b-02c4-48c7-ab05-13459cb900a7.png">
 </p>
 
-we found that users started listening to music in the morning, reached the peak in the afternoon, and then dropped in the evening. The image  gives more detail about the variety of number of users changes hourly-based. Key findings are summarized as following:
+Key findings are summarized as following:
 
 1. Number of active users dramatically increased between 5am to 6am.
 2. The highest number of listeners showed up between 4 to 6pm, with figures above 500,000.
