@@ -2,7 +2,7 @@
 Photo by [Viktor Forgac](https://unsplash.com/@sonance?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/B88PgQXS4qg)
 
 # Music Streaming Analytics
-Improving user listenting experience with music streaming data analysis 
+Improving user listenting experience with music listening history data analysis 
 
 This project is submitted as part of assignemnt the Recommader System module for MSc in Applied Information and Data Science at School of Business, Lucerne University of Applied Science and Arts
 
@@ -17,12 +17,13 @@ This project is submitted as part of assignemnt the Recommader System module for
  - [Data Analysis](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#data-analysis)
  - [Conclusion](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#conclusion)
  - [Project Reflection](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#project-reflection)
+ - [Reference](https://github.com/hsuwanying/music-streaming-analytic/blob/main/README.md#reference)
 
 # Business Problem
 Music streaming services allow people to access various types of music and millions of tracks with their smart devices and to customize playlists based on their preferences. These advanced features have made listening to music much easier than ever (Adiyansjan, Gunawan, & Suhartono, 2019). Neverthless, having an abundance of choices could delay users at making decisions and detering their motivation to stay with the services (Maasø & Hagen, 2020). Hence, businesses who wish to increase competitive advantages and enhance user stickiness towards digital products, it is essential to develop a recommender system, a mechanism that can automatically suggest media meeting user’s expectation (Hansen, et al., 2021). 
 
 # Solution
-The goal of this project is to improve the recommader system that can accuratly predict and suggest music the user like so as to reducing skipping rate. To achieve that, a user perferece analysis is conducted to better understand user related information, including, user demography, user actvites, gerner perference and listening patterns.   
+The goal of this project is to improve the recommader system that can accurately predict and suggest a track the user will listen more than 30 second. To achieve that, a user perferece analysis is conducted to better understand user related information, including, user demography, user actvites, gerner perference and listening patterns as to improve thier listening expereince with Deezer.   
 
 ## Process
  - Business Background Research
@@ -94,3 +95,8 @@ To sum up, we found that **time** is one of the most critical elements that can 
 It was a great experience to work on a dataset which contains millions of entries. Ideally, it would be good to start data processing in a database due to the simplicity of programming. In addition, performing data queries can help us to have a quick glance of data and have better understanding when performing some statistical calculations. 
 
 On the other hand, there are many categorical attributes which are replaced with numeric labels in the given dataset; it would be helpful to have the original labels of each categorical variable, which can help analysts form problem statements or hypotheses as well as provide better interpretation when analyzing data.
+
+# Reference
+ - Adiyansjan, Gunawan, A. A., & Suhartono, D. (2019). Music Recommader Systen Based on Genre using COnvolutional Recurrent Neural Networls. Procedia Computer Science 157, 99-109.
+ - Hansen, C., Mehrotra, R., Hansen, C., Brost, B., Maystre, L., & Lalmas, M. (2021). Shigting Consumption towards Diverse Content on Music Streaming Platforms. Proceedings of the 14th ACM International Conference on Web Search and Data MiningMarch, 238-246.
+ - Maasø, A., & Hagen, A. N. (2020). Metrics and Decision-Making in music streaming. Popular communication Vol. 18, No. 1, 18-31.
