@@ -126,7 +126,6 @@ Time is an essential factor which shifts users perderence from time to time. 24 
    <img width="400" alt="hour" src="https://user-images.githubusercontent.com/72688726/187435624-c8dc0f3b-02c4-48c7-ab05-13459cb900a7.png">
 </p>
 
-
 <p float="center">
  <img width="400" alt="platform_family" src="https://user-images.githubusercontent.com/72688726/187464284-094e1ac2-7136-499a-880b-06643ea597c4.png">
  <img width="400" alt="platform_name" src="https://user-images.githubusercontent.com/72688726/187464401-6844ab22-dd05-4b65-ab2c-2836ff935574.png">
