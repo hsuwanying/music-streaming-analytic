@@ -31,7 +31,10 @@ This project is submitted as part of assignemnt the Recommader System module for
 Kaggle Challenge: To predict whether the users of the test dataset listened to the first track Flow proposed them or not. Deezer considers that a track is "listened" if the user has listened to more than 30 seconds of it (is_listened =1). If the user presses the skip button to change the song before 30 seconds, then the track is not considered as being listened (is_listened = 0).
 </blockquote>
 <img width="817" alt="flow" src="https://user-images.githubusercontent.com/72688726/187404204-8281894e-390a-4094-aae8-d29a0015a06c.png">
-
+<figure>
+ <img width="817" alt="flow" align = "center" src="https://user-images.githubusercontent.com/72688726/187404204-8281894e-390a-4094-aae8-d29a0015a06c.png">
+ <figcaption>Fig.1 - User Listening Time based on Session.</figcaption>
+</figure>
 
 # Solution
 The original goal of this kaggle challenge is to improve the recommender system that can accurately predict and suggest a track the user will listen more than 30 seconds. Notheless, having positive **User experience** matters to business success and is crucial when measuring product performance. Besides predicting whether a user would skip a song or not to create a recommender system, in this project, I conducted a user preference analysis to generate insights from user age, user activities, music preference and listening patterns into the user experience to optimize Deezer's recommendation system. 
@@ -88,10 +91,13 @@ More detail can be seen in [Deezer data analysis result](https://github.com/hsuw
 Time is an essential factor which shifts users perderence from time to time. 
 
 24 hours are divded into six sesession, the graph below shows user listening time based on `session`,
-<img width="400" alt="session" src="https://user-images.githubusercontent.com/72688726/187429311-17f417cd-42cd-46e6-bf64-eff373b30c3c.png">
-<figcaption>Fig.1 - User Listening Time based on Session.</figcaption>
 
- we found that users started listening to music in the morning, reached the peak in the afternoon, and then dropped in the evening. The image  gives more detail about the variety of number of users changes hourly-based. Key findings are summarized as following:
+<figure>
+ <img width="400" alt="session" src="https://user-images.githubusercontent.com/72688726/187429311-17f417cd-42cd-46e6-bf64-eff373b30c3c.png">
+ <figcaption>Fig.1 - User Listening Time based on Session.</figcaption>
+</figure>
+
+we found that users started listening to music in the morning, reached the peak in the afternoon, and then dropped in the evening. The image  gives more detail about the variety of number of users changes hourly-based. Key findings are summarized as following:
 
 1. Number of active users dramatically increased between 5am to 6am.
 2. The highest number of listeners showed up between 4 to 6pm, with figures above 500,000.
