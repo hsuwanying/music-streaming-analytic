@@ -75,7 +75,6 @@ After the data exploration, we’ve found three main issues in the train dataset
 
 ## Feature engineering
 To better understand user preferences, behaviors and listening patterns, a series of feature engineering was conducted. 
-
  - **Time-related features**: such as year, month, day, weekday, is_weekend, hour, minutes and seconds were derived from `ts_listen`, which indicates the time a user starts to listen to a track. After that, season and sessions were derived from month and hour, and ladled with four seasons and six different time sessions. 
  - **User-related features**: user behaviour and listening patterns are created by aggregating `user_id`, `ts_listen`,  `user_age`,  `media_duration` and `media_id`. 
   - `listen_diff`: User listen music duration
@@ -88,7 +87,7 @@ More detail can be seen in [Deezer data analysis result](https://github.com/hsuw
 
 # Data Analysis
 ## Feature FLOW
-Fistly, we can quickly have a look at the FLOW feature, which is the column `listen_type`. The `listen_type` indicates a user listen music use FLOW(`listen_type = 1`) or not (`listen_type = 0`). Attributes `user_id`, `user_age`, `media_id` (songs) were aggregated for calculating average number of songs listened per user and the percentage of songs listened across each user age group.<br>
+Fistly, we quickly have a look at the FLOW feature, which is the column `listen_type`. The `listen_type` indicates a user listen music use FLOW(`listen_type = 1`) or not (`listen_type = 0`). Attributes `user_id`, `user_age`, `media_id` (songs) were aggregated for calculating average number of songs listened per user and the percentage of songs listened across each user age group.<br>
 
 Table 1 gives information about the avarage lenght of songs people listen and percentage of song listening within and without FLOW function. It clearly shows that, user do not use flow function listened 3 times longer than user in the FLOW. More specficly, users who do not use flow function listened nearly 60% of a song, in contrast, users who use flow function only listened less than 20% of a song which is recommmaded by the system.
 
@@ -119,12 +118,17 @@ User age is added to Table 2 to compare user listening behaviour accros ten age 
 
 
 ## User behaviour & perference analysis
-Time is an essential factor which shifts users perderence from time to time. 24 hours are divded into six sesession, the graph at the left below shows user listening time based on `session`,we found that users started listening to music in the morning, reached the peak in the afternoon, and then dropped in the evening. The graph at the right side gives more detail about the variety of number of users changes hourly-based. 
+
+ - **Time**
+Time is an essential factor which shifts users perderence from time to time. we divide 24 hours into six sessions including midnight, early morning, morning, afternoon, evening and night. The graph on left side shows users started listening to music in the morning, reached the peak in the afternoon, and then dropped in the evening. The graph at the right side gives information about user activity within with 24 hours.  
 
 <p float="center">
   <img width="400" alt="session" class="center" src="https://user-images.githubusercontent.com/72688726/187429311-17f417cd-42cd-46e6-bf64-eff373b30c3c.png">
    <img width="400" alt="hour" src="https://user-images.githubusercontent.com/72688726/187435624-c8dc0f3b-02c4-48c7-ab05-13459cb900a7.png">
 </p>
+
+ - **Medium**
+Features `platform_family` and `platform_name` referes to devices and operating system a user use to access to Deezer app, as the data was encoded with numeric value, we cannot tell what devices or opreation system users use, nonetheless, the `platform_family 0` and `platform_name 0` are the most prefereable mediums amongest users
 
 <p float="center">
  <img width="400" alt="platform_family" src="https://user-images.githubusercontent.com/72688726/187464284-094e1ac2-7136-499a-880b-06643ea597c4.png">
