@@ -2,7 +2,7 @@
 <img src = "https://user-images.githubusercontent.com/72688726/187465826-02188c10-55de-435f-81f7-ae27c2c61fcb.jpg">
 </p>
 <p align = "center">
- <a href="">Deezer FLOW</a>
+ <a href="https://features.deezer.com/flow/?_gl=1*182jft9*_ga*MTg5MzU0MjMyNS4xNjYxODY5OTU1*_ga_71WQ7Y8JLG*MTY2MjA0NDM1MS4zLjEuMTY2MjA0NTM0NS4wLjAuMA..">Deezer FLOW</a>
 </p>
 
 # Music Streaming Analytics: Improving user listenting experience with music listening history data analysis
