@@ -7,7 +7,7 @@
 
 # Music Streaming Analytics: Improving user listenting experience with music listening history data analysis
 
-Music streaming services allow people to access various types of music and millions of tracks with their smart devices and to customize playlists based on their preferences. These advanced features have made listening to music much easier than ever (Adiyansjan, Gunawan, & Suhartono, 2019). Neverthless, having an abundance of choices could delay users at making decisions and detering their motivation to stay with the services (Maasø & Hagen, 2020). Hence, businesses who wish to increase competitive advantages and enhance user stickiness towards digital products, it is essential to develop a recommender system, a mechanism that can automatically suggest media meeting user’s expectation (Hansen, et al., 2021). 
+Music streaming services allow people to listen to various types of music and millions of tracks with their smart devices based on their preferences, these advanced features have made listening to music much easier than ever (Adiyansjan, Gunawan, & Suhartono, 2019). Neverthless, having an abundance of choices could delay users at making decisions and detering their motivation to stay with the services (Maasø & Hagen, 2020). To increase competitive advantages and enhance user stickiness towards digital products, it is essential for music streaming providers to develop a recommender system, can automatically suggest media meeting user’s taste and increase their listening expereince (Hansen, et al., 2021). 
 
 This project is submitted as part of assignemnt for the Recommader System module for MSc in [IDS](https://www.hslu.ch/en/lucerne-school-of-business/degree-programmes/master/applied-information-and-data-science/) at [HSLU](https://www.hslu.ch/de-ch/)
 
@@ -46,21 +46,21 @@ The data is originated from a [Kaggle challenge](https://www.kaggle.com/c/dsg17-
 ## Description
 The target variable of this dataset is is_listened. There are 7'558'834 obersvations with 14 preditors.
 
- - genre_id: identifiant of the genre of the song
- - media_id: identifiant of the song listened by the user
- - album_id: identifiant of the album of the song
- - media_duration: duration of the song
- - user_gender: gender of the user
- - user_id: anonymized id of the user
- - context_type :type of content where the song was listened: playlist, album ...
- - release_date: release date of the song with the format YYYYMMDD
- - ts_listen: timestamp of the listening in UNIX time
- - platform_name: type of os
- - platform_family: type of device
- - user_age: age of the user
- - listen_type if the songs was listened in a flow or not
- - artist_id: identifiant of the artist of the song
- - is_listened: 1 refers a track was listened, 0 otherwise
+ - `genre_id`: identifiant of the genre of the song
+ - `media_id`: identifiant of the song listened by the user
+ - `album_id`: identifiant of the album of the song
+ - `media_duration`: duration of the song
+ - `user_gender`: gender of the user
+ - `user_id`: anonymized id of the user
+ - `context_type`:type of content where the song was listened: playlist, album ...
+ - `release_date`: release date of the song with the format YYYYMMDD
+ - `ts_listen`: timestamp of the listening in UNIX time
+ - `platform_name`: type of os
+ - `platform_family`: type of device
+ - `user_age`: age of the user
+ - `listen_type`: if the songs was listened in a flow or not
+ - `artist_id`: identifiant of the artist of the song
+ - `is_listened`: 1 refers a track was listened, 0 otherwise
 
 # Methods
  - Data prepreocessing
@@ -69,7 +69,7 @@ The target variable of this dataset is is_listened. There are 7'558'834 obersvat
 
 ## Preprocessing
 After the data exploration, we’ve found three main issues in the train dataset:
-1. There 17 entries of released_date is 30000101, which cannot be recognized with the time format
+1. There 17 entries of `released_date` is 30000101, which cannot be recognized with the time format
 2. 29,779 data entries where ts_listen is greater than released_date
 3. There are 2 records where ts_listen is earlier than the time when Deezer was founded (in 2006) 
 
@@ -97,19 +97,21 @@ Table 1 gives information about the avarage lenght of songs people listen and pe
 </p>
 <p align = "center">Table 1. Average media listening percentage with and wihout FLOW function
 </p>
-
 <br>
-User age is added to Table 2 to compare user listening behaviour accros ten age groups
 
+
+User age is added to Table 2 to compare user listening behaviour accros ten age groups
+<br>
 <p align = "center">
 <img width="550" alt="media_perc" src="https://user-images.githubusercontent.com/72688726/187438204-b337eccb-5ba9-4c85-b684-266f76f08138.png">
 </p>
 <p align = "center">Table 2. Media listening duration 
 </p>
-
 <br>
+
 `listen_type` is added to Table 3 to compare users listening behaviour accros ten age groups within and without FLOW function
 
+<br>
 <p align = "center">
 <img width="550" alt="age_lis_perc_flow" src="https://user-images.githubusercontent.com/72688726/187438395-ae28615f-81c7-45d7-a94d-386f9f04e7d9.png">
 </p>
@@ -120,11 +122,11 @@ User age is added to Table 2 to compare user listening behaviour accros ten age 
 ## User behaviour & perference analysis
 
  - **Time**
-Time is an essential factor which shifts users perderence from time to time. we divide 24 hours into six sessions including midnight, early morning, morning, afternoon, evening and night. The graph on left side shows users started listening to music in the morning, reached the peak in the afternoon, and then dropped in the evening. The graph at the right side gives information about user activity within with 24 hours.  
+Time is an essential factor which shifts users perderence from time to time. we divide 24 hours into six sessions including midnight, early morning, morning, afternoon, evening and night. The `session` graph below shows users started listening to music in the morning, reached the peak in the afternoon, and then dropped in the evening, and the `hour` graph gives information about user activity within with 24 hours.
 
 <p float="center">
   <img width="400" alt="session" class="center" src="https://user-images.githubusercontent.com/72688726/187429311-17f417cd-42cd-46e6-bf64-eff373b30c3c.png">
-   <img width="400" alt="hour" src="https://user-images.githubusercontent.com/72688726/187435624-c8dc0f3b-02c4-48c7-ab05-13459cb900a7.png">
+   <img width="400" alt="hour" src="https://user-images.githubusercontent.com/72688726/187435624-c8dc0f3b-02c4-48c7-ab05-13459cb900a7.png"> 
 </p>
 
  - **Medium**
@@ -143,7 +145,6 @@ When it comes to content analysis, genre is one of the features that can differ 
  <img width="300" alt="artist" src="https://user-images.githubusercontent.com/72688726/187462960-7d3c728e-f9fb-492c-8ee3-201fa4096baa.png">
  <img width="300" alt="gerne" src="https://user-images.githubusercontent.com/72688726/187463242-3ad1876a-2039-46c4-9f51-f2a970c3ff1b.png">
 </p>
-
 
 # Key Findings
 - Feature `Flow`  
