@@ -6,8 +6,8 @@
 </p>
 
 # Music Streaming Analytics: Improving user listenting experience with music listening history data analysis
-
-Music streaming services allow people to listen to various types of music and millions of tracks with their smart devices based on their preferences, these advanced features have made listening to music much easier than ever (Adiyansjan, Gunawan, & Suhartono, 2019). Neverthless, having an abundance of choices could delay users at making decisions and detering their motivation to stay with the services (Maasø & Hagen, 2020). To increase competitive advantages and enhance user stickiness towards digital products, it is essential for music streaming providers to develop a recommender system, can automatically suggest media meeting user’s taste and increase their listening expereince (Hansen, et al., 2021). 
+Music streaming services allow people to listen to various types of music and millions of tracks with their intelligent devices based on their preferences; these advanced features have made listening to music much more accessible than ever (Adiyansjan, Gunawan, & Suhartono, 2019). 
+With the increased competitors in the music streaming industry, having a good user experience is essential to increase competitive advantages and strengthen customer stickiness. In this project, we derived actionable suggestions by analyzing the user's listening history data and experience with the recommender system for improving a music recommender system by Deezer.
 
 This project is submitted as part of assignemnt for the Recommader System module for MSc in [IDS](https://www.hslu.ch/en/lucerne-school-of-business/degree-programmes/master/applied-information-and-data-science/) at [HSLU](https://www.hslu.ch/de-ch/)
 
