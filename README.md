@@ -5,7 +5,7 @@
  <a href="https://features.deezer.com/flow/?_gl=1*182jft9*_ga*MTg5MzU0MjMyNS4xNjYxODY5OTU1*_ga_71WQ7Y8JLG*MTY2MjA0NDM1MS4zLjEuMTY2MjA0NTM0NS4wLjAuMA..">Deezer FLOW</a>
 </p>
 
-# Music Streaming Analytics: Improving user listenting experience with music listening history data analysis
+# Evaluating User Experience of a Recommender System: Optimising a recommendation feature with user listen history data analysis
 Music streaming services allow people to listen to various types of music and millions of tracks with their intelligent devices based on their preferences; these advanced features have made listening to music much more accessible than ever (Adiyansjan, Gunawan, & Suhartono, 2019). 
 With the increased competitors in the music streaming industry, having a good user experience is essential to increase competitive advantages and strengthen customer stickiness. In this project, we derived actionable suggestions by analyzing the user's listening history data and experience with the recommender system for improving a music recommender system by Deezer.
 
