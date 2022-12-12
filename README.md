@@ -159,7 +159,7 @@ When it comes to content analysis, genre is one of the features that can differ 
   2. The highest number of listeners showed up between 4 to 6pm, with figures above 500,000.
   3. The number of users constantly decreased in the evening and dropped to 200,000 at 23 pm. 
 
-- Gerne Perference
+- Gerne Preference
   1. Genre_id 0 was the most popular genre among the top 10 ranking.
   2. Genre_id 0, 7, 10 ,25, 27, 14, 734, 297, 2744 were the most popular.
   3. Popular genres are beloved across most sessions. Except that genre_id 2744 was not popular during night and midnight, genre_id 50 was preferable during the Night, and genre_id 3645 in the midnight.
